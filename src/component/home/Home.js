@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css"
-import realEstate from "../Assets/real-estate 1.svg"
-// import logo from "../Assets/logo.jpg"
+import mouseScroll from "../Assets/scroll icon.png"
+
 
 function Home (){
     return(
@@ -14,41 +14,8 @@ function Home (){
                 <ul className={"nav-links"}>
                     <li className={"nav-link active"}><a href={""}>Home</a></li>
                     <li className={"nav-link"}><a href={"./pages/about.html"}>About</a></li>
-                    <li className={"nav-link"}>
-                        {/*<a href={"#"}>Brokerage <i className={"fas fa-chevron-down"}></i></a>*/}
-                        {/*<ul className={"dropdown"}>*/}
-                        {/*    <li className={"active"}>*/}
-                        {/*        <span><img src={realEstate} alt={""}/> Residential <i className={"fas fa-chevron-down"}></i></span>*/}
-                        {/*        <ul className={"mini-dropdown"}>*/}
-                        {/*            <li><a href={"#"}>Buying and Selling</a></li>*/}
-                        {/*            <li><a href={"#"}>Rentals</a></li>*/}
-                        {/*            <li><a href={"#"}>New Projects (Developers)</a></li>*/}
-                        {/*            <li><a href={"#"}>Cooperate Homes</a></li>*/}
-                        {/*        </ul>*/}
-                        {/*    </li>*/}
-                        {/*    <li>*/}
-                        {/*        <span><img src={"./Assets/003-mortgage-1 1.svg"} alt={""}/>Commercial <i className={"fas fa-chevron-down"}></i></span>*/}
-                        {/*        <ul className={"mini-dropdown"}>*/}
-                        {/*            <li><a href={"#"}>Retail</a></li>*/}
-                        {/*            <li><a href={"#"}>Industrial Property</a></li>*/}
-                        {/*            <li><a href={"#"}>Official Space</a></li>*/}
-                        {/*            <li><a href={"#"}>Medical Properties</a></li>*/}
-                        {/*            <li><a href={"#"}>Banking Properties</a></li>*/}
-                        {/*            <li><a href={"#"}>Agricultural Property</a></li>*/}
-                        {/*            <li><a href={"#"}>Lands Property</a></li>*/}
-                        {/*        </ul>*/}
-                        {/*    </li>*/}
-                        {/*</ul>*/}
-                    </li>
-                    {/*<li className={"nav-link"}>*/}
-                    {/*    <a href={"#"}>Management<i className={"fas fa-chevron-down"}></i></a>*/}
-                    {/*    <ul className={"dropdown"}>*/}
-                    {/*        <li><a href={"#"}>Property Management</a></li>*/}
-                    {/*        <li><a href={"#"}>Sales & Marketing Management</a></li>*/}
-                    {/*    </ul>*/}
-                    {/*</li>*/}
-                    <li className={"nav-link"}><a href={""}>Investment <i className={"fas fa-chevron-down"}></i></a></li>
-                    <li className={"nav-link"}><a href={""}>Development <i className={"fas fa-chevron-down"}></i></a></li>
+                    <li className={"nav-link"}><a href={""}>Investment</a></li>
+                    <li className={"nav-link"}><a href={""}>Development</a></li>
                     <li className={"nav-link"}><a href={""}>Project Blog</a></li>
                     <li className={"nav-link"}><a href={"./pages/contact.html"}>Contact</a></li>
                 </ul>
@@ -57,24 +24,16 @@ function Home (){
             <main className={"hero-section"} role={"main"}>
                 <div className={"hero-content"}>
                     <h1>
-                        Discover Amazing
-                        Properties in Nigeria
+                       Creative Innovative Idea
+                        From Nigeria
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Etiam eu turpis molestie, dictum est a, mattis tellus.
-                        Sed dignissim, metus nec fringilla accumsan, risus sem
-                        sollicitudin lacus, ut interdum tellus elit sed risus.
-                        Maecenas eget condimentum velit, sit amet feugiat lectus.
-                        Class aptent tacitinubia nostra, per inceptos himenaeos.
+                        Finding an application that does lots of things?<br/>
+                        You are in the right place.
                     </p>
-                    <a href={"#"}>Explore Properties <i className={"fas fa-arrow-right"}></i></a>
+                    <a href={"#"}>Register <i className={"fas fa-arrow-right"}></i></a>
                 </div>
-                <div className={"carousel-control"}>
-                    <button type={"button"} id={"carousel-button-prev"} className={"carousel-button"}><i className={"fas fa-arrow-left"}></i></button>
-                    <button type={"button"} id={"carousel-button-next"} className={"carousel-button"}><i className={"fas fa-arrow-right"}></i></button>
-                </div>
-                <a href={"#mission"}><img src={"./Assets/scroll icon.png"} alt={"scroll_button"} id={"scroll_button"}/></a>
+                <a href={"#mission"}><img src={mouseScroll} alt={"scroll_button"} id={"scroll_button"}/></a>
             </main>
 
             <section className={"mission"} id={"mission"}>
