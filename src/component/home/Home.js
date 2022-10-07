@@ -93,8 +93,6 @@ function Home (){
                         <div className={"number"}>2</div>
                         <h1>Real Estate Management</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
-                            tellus.
                             Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed
                             risus.
                             Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent tacitinubia nostra, per inceptos
