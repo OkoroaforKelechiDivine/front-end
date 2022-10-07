@@ -10,7 +10,6 @@ function Home (){
                 <div className={"brand-logo"}>
                     <a href={"Home"}> <p>Kelechi Divine</p></a>
                 </div>
-
                 <div id={"toggle-menu"} className={"toggle-menu"} alt={"toggle-navbar"}></div>
                 <ul className={"nav-links"}>
                     <li className={"nav-link active"}><a href={""}>Home</a></li>
