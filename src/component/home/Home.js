@@ -13,11 +13,12 @@ function Home (){
                 <div id={"toggle-menu"} className={"toggle-menu"} alt={"toggle-navbar"}></div>
                 <ul className={"nav-links"}>
                     <li className={"nav-link active"}><a href={""}>Home</a></li>
-                    <li className={"nav-link"}><a href={"./pages/about.html"}>About</a></li>
-                    <li className={"nav-link"}><a href={""}>Investment</a></li>
-                    <li className={"nav-link"}><a href={""}>Development</a></li>
+                    <li className={"nav-link"}><a href={""}>About Us</a></li>
+                    <li className={"nav-link"}><a href={""}>News</a></li>
+                    <li className={"nav-link"}><a href={""}>Contact Us</a></li>
                     <li className={"nav-link"}><a href={""}>Project Blog</a></li>
-                    <li className={"nav-link"}><a href={"./pages/contact.html"}>Contact</a></li>
+                    <li className={"nav-link"}><a href={""}>Login</a></li>
+                    <li className={"nav-link"}><a href={""}>Register</a></li>
                 </ul>
             </nav>
 
