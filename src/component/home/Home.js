@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Home.css"
+import realEstate from "../Assets/real-estate 1.svg"
 // import logo from "../Assets/logo.jpg"
 
 function Home (){
@@ -14,38 +15,38 @@ function Home (){
                     <li className={"nav-link active"}><a href={""}>Home</a></li>
                     <li className={"nav-link"}><a href={"./pages/about.html"}>About</a></li>
                     <li className={"nav-link"}>
-                        <a href={"#"}>Brokerage <i className={"fas fa-chevron-down"}></i></a>
-                        <ul className={"dropdown"}>
-                            <li className={"active"}>
-                                <span><img src={"./Assets/real-estate 1.svg"} alt={""}/> Residential <i className={"fas fa-chevron-down"}></i></span>
-                                <ul className={"mini-dropdown"}>
-                                    <li><a href={"#"}>Buying and Selling</a></li>
-                                    <li><a href={"#"}>Rentals</a></li>
-                                    <li><a href={"#"}>New Projects (Developers)</a></li>
-                                    <li><a href={"#"}>Cooperate Homes</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span><img src={"./Assets/003-mortgage-1 1.svg"} alt={""}/>Commercial <i className={"fas fa-chevron-down"}></i></span>
-                                <ul className={"mini-dropdown"}>
-                                    <li><a href={"#"}>Retail</a></li>
-                                    <li><a href={"#"}>Industrial Property</a></li>
-                                    <li><a href={"#"}>Official Space</a></li>
-                                    <li><a href={"#"}>Medical Properties</a></li>
-                                    <li><a href={"#"}>Banking Properties</a></li>
-                                    <li><a href={"#"}>Agricultural Property</a></li>
-                                    <li><a href={"#"}>Lands Property</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        {/*<a href={"#"}>Brokerage <i className={"fas fa-chevron-down"}></i></a>*/}
+                        {/*<ul className={"dropdown"}>*/}
+                        {/*    <li className={"active"}>*/}
+                        {/*        <span><img src={realEstate} alt={""}/> Residential <i className={"fas fa-chevron-down"}></i></span>*/}
+                        {/*        <ul className={"mini-dropdown"}>*/}
+                        {/*            <li><a href={"#"}>Buying and Selling</a></li>*/}
+                        {/*            <li><a href={"#"}>Rentals</a></li>*/}
+                        {/*            <li><a href={"#"}>New Projects (Developers)</a></li>*/}
+                        {/*            <li><a href={"#"}>Cooperate Homes</a></li>*/}
+                        {/*        </ul>*/}
+                        {/*    </li>*/}
+                        {/*    <li>*/}
+                        {/*        <span><img src={"./Assets/003-mortgage-1 1.svg"} alt={""}/>Commercial <i className={"fas fa-chevron-down"}></i></span>*/}
+                        {/*        <ul className={"mini-dropdown"}>*/}
+                        {/*            <li><a href={"#"}>Retail</a></li>*/}
+                        {/*            <li><a href={"#"}>Industrial Property</a></li>*/}
+                        {/*            <li><a href={"#"}>Official Space</a></li>*/}
+                        {/*            <li><a href={"#"}>Medical Properties</a></li>*/}
+                        {/*            <li><a href={"#"}>Banking Properties</a></li>*/}
+                        {/*            <li><a href={"#"}>Agricultural Property</a></li>*/}
+                        {/*            <li><a href={"#"}>Lands Property</a></li>*/}
+                        {/*        </ul>*/}
+                        {/*    </li>*/}
+                        {/*</ul>*/}
                     </li>
-                    <li className={"nav-link"}>
-                        <a href={"#"}>Management<i className={"fas fa-chevron-down"}></i></a>
-                        <ul className={"dropdown"}>
-                            <li><a href={"#"}>Property Management</a></li>
-                            <li><a href={"#"}>Sales & Marketing Management</a></li>
-                        </ul>
-                    </li>
+                    {/*<li className={"nav-link"}>*/}
+                    {/*    <a href={"#"}>Management<i className={"fas fa-chevron-down"}></i></a>*/}
+                    {/*    <ul className={"dropdown"}>*/}
+                    {/*        <li><a href={"#"}>Property Management</a></li>*/}
+                    {/*        <li><a href={"#"}>Sales & Marketing Management</a></li>*/}
+                    {/*    </ul>*/}
+                    {/*</li>*/}
                     <li className={"nav-link"}><a href={""}>Investment <i className={"fas fa-chevron-down"}></i></a></li>
                     <li className={"nav-link"}><a href={""}>Development <i className={"fas fa-chevron-down"}></i></a></li>
                     <li className={"nav-link"}><a href={""}>Project Blog</a></li>
