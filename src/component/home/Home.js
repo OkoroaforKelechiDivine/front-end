@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Home.css"
-import logo from "../Assets/logo.jpg"
+// import logo from "../Assets/logo.jpg"
 
 function Home (){
     return(
         <div className={"body"}>
             <nav className={"navbar"} role={"navigation"}>
                 <div className={"brand-logo"}>
-                    <img src={logo} alt={"brand-logo"}/>
+                    <a href={"Home"}> <p>Kelechi Divine</p></a>
                 </div>
                 <div id={"toggle-menu"} className={"toggle-menu"} alt={"toggle-navbar"}></div>
                 <ul className={"nav-links"}>

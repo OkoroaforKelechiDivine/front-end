@@ -211,13 +211,21 @@ select {
         display: none;
     }
 }
-.navbar .brand-logo {
-    z-index: 3;
+/*.navbar .brand-logo {*/
+/*    z-index: 3;*/
+/*}*/
+.navbar .brand-logo p {
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #1A1818;
+    font-family: "Ubuntu", sans-serif;
 }
-.navbar .brand-logo img {
-    width: 6rem;
-    height: 6rem;
+
+.brand-logo a{
+    text-decoration: none;
 }
+
 .navbar .toggle-menu {
     display: none;
     padding: 0.5rem 0.98rem;
