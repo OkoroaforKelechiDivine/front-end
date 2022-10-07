@@ -16,7 +16,7 @@ function Home (){
                     <li className={"nav-link"}><a href={""}>About Us</a></li>
                     <li className={"nav-link"}><a href={""}>News</a></li>
                     <li className={"nav-link"}><a href={""}>Contact Us</a></li>
-                    <li className={"nav-link"}><a href={""}>Project Blog</a></li>
+                    <li className={"nav-link"}><a href={""}>Blog</a></li>
                     <li className={"nav-link"}><a href={""}>Login</a></li>
                     <li className={"nav-link"}><a href={""}>Register</a></li>
                 </ul>
