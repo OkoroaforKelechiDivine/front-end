@@ -586,7 +586,7 @@ input, button, textarea, select {
 
 .hero-section h1 {
     width: 90%;
-    max-width: 50rem;
+    max-width: 60rem;
     font-size: 6.4rem;
     line-height: 7rem;
     color: #ffffff;
@@ -604,8 +604,8 @@ input, button, textarea, select {
 .hero-section p {
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
-    line-height: 2.5rem;
-    font-size: 1.6rem;
+    line-height: 30px;
+    font-size: 25px;
     width: 90%;
     max-width: 67rem;
     margin-bottom: 7rem;
