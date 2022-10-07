@@ -585,13 +585,13 @@ input, button, textarea, select {
 }
 
 .hero-section h1 {
-    width: 90%;
+    width: 100%;
     max-width: 60rem;
     font-size: 6.4rem;
     line-height: 7rem;
     color: #ffffff;
     font-weight: 300;
-    font-family: "Suranna", serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .hero-section .hero-content {
@@ -603,7 +603,7 @@ input, button, textarea, select {
 
 .hero-section p {
     color: #ffffff;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     line-height: 30px;
     font-size: 25px;
     width: 90%;
@@ -611,26 +611,31 @@ input, button, textarea, select {
     margin-bottom: 7rem;
 }
 
-.hero-section .hero-content a {
-    background: #ffffff;
+.hero-section p i strong{
+    color: #24d324;
+}
+
+.hero-section .hero-content .get-started {
     box-shadow: 0 0 5px #1A1818;
     padding: 1.5rem 4.5rem;
     color: #1A1818;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 1.6rem;
+    border-radius: 15px;
     position: relative;
+    background-color: rgba(62, 237, 169, 0.96);
 }
 
-.hero-section .hero-content a i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -5%;
-    padding: 0.9rem;
-    background-color: #890006;
-    color: #ffffff;
-    box-shadow: -5px 5px 40px rgba(0, 0, 0, 0.72);
+.hero-section .hero-content .get-started a{
+    text-decoration: none;
+}
+
+.hero-section .hero-content .get-started a:hover{
+    letter-spacing: 5px;
+    transition: 0.7s ease-in;
+    text-decoration: none;
+    /*cursor: pointer;*/
 }
 
 .hero-section .hero-content a:hover {

@@ -28,10 +28,17 @@ function Home (){
                         From Nigeria
                     </h1>
                     <p>
-                        Finding an application that does lots of things?<br/>
-                        You are in the right place.
+                        <i>
+                        Finding an <strong>application</strong> that does lots of things?<br/>
+                        You are in the right place!!
+                        </i>
                     </p>
-                    <a href={"#"}>Register <i className={"fas fa-arrow-right"}></i></a>
+                    <div className={"get-started"}>
+                        <a href={""}>
+                            Get started
+                        </a>
+                    </div>
+
                 </div>
                 <a href={"#mission"}><img src={mouseScroll} alt={"scroll_button"} id={"scroll_button"}/></a>
             </main>
@@ -39,7 +46,6 @@ function Home (){
             <section className={"mission"} id={"mission"}>
                 <div className={"title"}>
                     <h1>Our Mission</h1>
-                    <img src={"./Assets/v-arrow.svg"} alt={"vector arrow svg"}/>
                 </div>
                 <div className={"mission-text"}>
                     <p>
