@@ -41,12 +41,12 @@ const LinkShortener = () => {
         <div className={'link-shortener'}>
             <form>
                 <div className={"input-field"}>
-                    <input type={"text"} placeholder={'Shorten a link here...'}
+                    <input type={"text"} placeholder={'Paste link here...'}
                            value={originalLink} onChange={(e) => { setOriginalLink(e.target.value);
                                console.log(originalLink); }}/>
                     <small id={'form-error'}></small>
                 </div>
-                <button type={'submit'} onClick={shortenLink}>Shorten It!</button>
+                <button type={'submit'} onClick={shortenLink}>Get It Short!</button>
             </form>
             <ul className={"short-links"}>
                 {
