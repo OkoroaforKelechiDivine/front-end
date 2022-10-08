@@ -18,6 +18,7 @@ class CustomFormValidation extends React.Component{
     this.state = defaultState;
     this.handleInputChange = this.handleInputChange.bind(this);
   }
+
   handleInputChange(event) {
     const target = event.target;
     const value = target.value;
@@ -26,19 +27,20 @@ class CustomFormValidation extends React.Component{
       [name]: value
     });
   }
+
   validate(){
     let nameError = "";
     let emailError = "";
     let passwordError = "";
     if(!this.state.name){
-      nameError = "Name field is required";
+      nameError = "Name field is required.";
     }
     const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(!this.state.email || reg.test(this.state.email) === false){
-      emailError = "Email Field is Invalid ";
+      emailError = "Email Field is Invalid.";
     }
     if(!this.state.password){
-      passwordError = "Password field is required";
+      passwordError = "Password field is required.";
     }
     if(emailError || nameError || passwordError){
       this.setState({nameError,emailError,passwordError});
@@ -64,7 +66,6 @@ class CustomFormValidation extends React.Component{
                     <div className={"row"}>
                       <div className={"col-md-9 col-lg-8 mx-auto"}>
                         <h3 className={"login-heading mb-4"}>Welcome back!</h3>
-
 
                         <form>
                           <div className={"form-floating mb-3"}>
@@ -105,8 +106,8 @@ class CustomFormValidation extends React.Component{
                             <button
                                 className={"btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2"}
                                 type={"button"} onClick={()=>this.submit()}>Sign in</button>
-                            <div className={"text-center"}>
-                              <a className={"small"} href={"#"}>Forgot password?</a>
+                            <div className={"text-center text"}>
+                              Forgot password? <a className={"small"} href={"#"}>Click here</a>
                             </div>
                           </div>
 

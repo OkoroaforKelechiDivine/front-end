@@ -21,3 +21,11 @@
 .invalid {
   border-color: red !important;
 }
+
+.text a{
+  color: black;
+}
+
+.text a:hover{
+  color: black;
+}
