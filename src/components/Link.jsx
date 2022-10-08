@@ -9,14 +9,13 @@ const Link = ({originalLink, shortLink}) => {
     }
 
     return (
-        <li className='short-link'>
-            <p className="link">{originalLink}</p>
-            <span className="copy-short-link">
-          <p className="link">{shortLink}</p>
-          <input type='button' onClick={copyLink} value="Copy"/>
+        <li className={'short-link'}>
+            <p className={"link"}>{originalLink}</p>
+            <span className={"copy-short-link"}>
+          <p className={"link"}>{shortLink}</p>
+          <input type={'button'} onClick={copyLink} value={"Copy"}/>
         </span>
         </li>
     )
 }
-
 export default Link;

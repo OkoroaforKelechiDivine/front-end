@@ -38,21 +38,25 @@ const LinkShortener = () => {
     }
 
     return (
-        <div className='link-shortener'>
+        <div className={'link-shortener'}>
             <form>
-                <div className="input-field">
-                    <input type="text" placeholder='Shorten a link here...' value={originalLink} onChange={(e) => { setOriginalLink(e.target.value); console.log(originalLink); }}/>
-                    <small id='form-error'></small>
+                <div className={"input-field"}>
+                    <input type={"text"} placeholder={'Shorten a link here...'}
+                           value={originalLink} onChange={(e) => { setOriginalLink(e.target.value);
+                               console.log(originalLink); }}/>
+                    <small id={'form-error'}></small>
                 </div>
-                <button type='submit' onClick={shortenLink}>Shorten It!</button>
+                <button type={'submit'} onClick={shortenLink}>Shorten It!</button>
             </form>
-            <ul className="short-links">
+            <ul className={"short-links"}>
                 {
-                    links?.map(link => <Link key={uuidv4()} originalLink={link.original_link} shortLink={link.short_link}/>)
+                    links?.map(link => <Link
+                        key={uuidv4()}
+                        originalLink={link.original_link}
+                        shortLink={link.short_link}/>)
                 }
             </ul>
         </div>
     )
 }
-
 export default LinkShortener
