@@ -12,8 +12,8 @@ const defaultState = {
   passwordError:null
 }
 class CustomFormValidation extends React.Component{
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = defaultState;
     this.handleInputChange = this.handleInputChange.bind(this);
   }
