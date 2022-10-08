@@ -24,7 +24,7 @@ const Navbar = () => {
                 <li className={"line"}></li>
                 <li className={"link"}>
                     <ul className={"user-nav-links"}>
-                        <li><a href={"https://okoroaforkelechidivine.github.io/login/"} target={"_blank"}>Login</a></li>
+                        <li><a href={"https://okoroaforkelechidivine.github.io/authenticate/"} target={"_blank"}>Login</a></li>
                         <li><a href={"#"}>Sign Up</a></li>
                     </ul>
                 </li>
