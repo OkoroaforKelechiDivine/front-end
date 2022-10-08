@@ -612,45 +612,51 @@ html {
   font-size: 2.5rem;
   margin-top: -3rem;
 }
+
 .section-two .statistics .statistics-card p {
   font-size: 1.8rem;
   color: hsl(0deg, 0%, 75%);
   margin-top: 2rem;
   line-height: 3.2rem;
 }
+
 @media screen and (min-width: 768px) and (max-width: 900px) {
   .section-two .statistics .statistics-card p {
     font-size: 1.4rem;
   }
 }
+
 .section-two .statistics .statistics-card:nth-child(3) {
   margin-top: 8rem;
 }
+
 .section-two .statistics .statistics-card:nth-child(4) {
   margin-top: 16rem;
 }
+
 @media screen and (max-width: 1000px) {
   .section-two {
-    padding: 0 8rem;
-    padding-bottom: 12rem;
+    padding: 0 8rem 12rem;
   }
 }
+
 @media screen and (max-width: 868px) {
   .section-two {
-    padding: 0 6rem;
-    padding-bottom: 12rem;
+    padding: 0 6rem 12rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   .section-two {
-    padding: 0 5rem;
-    padding-bottom: 10rem;
+    padding: 0 5rem 10rem;
   }
+
   .section-two .statistics {
     flex-direction: column;
     margin-top: 5rem;
     gap: 10rem;
   }
+
   .section-two .statistics .bg-statistics {
     position: absolute;
     width: 1rem;
@@ -660,17 +666,19 @@ html {
     transform: translateY(-50%);
     z-index: -2;
   }
+
   .section-two .statistics .statistics-card {
     text-align: center;
   }
+
   .section-two .statistics .statistics-card:nth-child(3), .section-two .statistics .statistics-card:nth-child(4) {
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 400px) {
   .section-two {
-    padding: 0 2rem;
-    padding-bottom: 8rem;
+    padding: 0 2rem 8rem;
   }
 }
 
@@ -682,11 +690,13 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .boost-links h1 {
   font-size: 5rem;
   color: #fff;
   margin-bottom: 2rem;
 }
+
 .boost-links button {
   padding: 1.3rem 3.5rem;
   color: #fff;
@@ -700,9 +710,11 @@ html {
   transition: 0.5s;
   cursor: pointer;
 }
+
 .boost-links button:hover {
   background-color: rgb(119, 255, 255);
 }
+
 @media screen and (max-width: 600px) {
   .boost-links {
     background: url("./images/bg-boost-mobile.svg"), hsl(257deg, 27%, 26%);
@@ -710,10 +722,12 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .boost-links h1 {
     font-size: 3rem;
   }
 }
+
 @media screen and (max-width: 375px) {
   .boost-links h1 {
     font-size: 2rem;
@@ -728,19 +742,23 @@ footer {
   align-items: start;
   justify-content: space-between;
 }
+
 footer .brand-logo {
   flex: 3;
 }
+
 footer .features, footer .resources, footer .company {
   flex: 1;
   font-size: 1.8rem;
   margin: 0 2rem;
 }
+
 footer .features p, footer .resources p, footer .company p {
   color: #fff;
   margin-bottom: 2.4rem;
   font-weight: 500;
 }
+
 footer .features li, footer .resources li, footer .company li {
   list-style-type: none;
   margin: 1.4rem 0;
@@ -748,48 +766,59 @@ footer .features li, footer .resources li, footer .company li {
   transition: 0.4s;
   cursor: pointer;
 }
+
 footer .features li:hover, footer .resources li:hover, footer .company li:hover {
   color: hsl(180deg, 66%, 49%);
 }
+
 footer .socials {
   flex: 2;
   margin-left: 2rem;
 }
+
 footer .socials svg {
   margin: 0 1rem;
   cursor: pointer;
   transition: 1s;
 }
+
 footer .socials svg:hover path {
   fill: hsl(180deg, 66%, 49%);
 }
+
 @media screen and (max-width: 1000px) {
   footer {
     padding: 5rem 8rem;
   }
 }
+
 @media screen and (max-width: 898px) {
   footer {
     padding: 5rem 6rem;
   }
+
   footer .features, footer .resources, footer .company {
     flex: 1;
     font-size: 1.4rem;
     margin: 0 2rem;
   }
+
   footer .features p, footer .resources p, footer .company p {
     color: #fff;
     margin-bottom: 2.4rem;
     font-weight: 500;
   }
+
   footer .socials {
     margin-left: 1rem;
   }
+
   footer .socials svg {
     margin: 0 0.5rem;
     transform: scale(0.7);
   }
 }
+
 @media screen and (max-width: 768px) {
   footer {
     padding: 5rem;
@@ -797,20 +826,25 @@ footer .socials svg:hover path {
     text-align: center;
     align-items: center;
   }
+
   footer .brand-logo {
     margin-bottom: 2rem;
   }
+
   footer .features, footer .company, footer .resources {
     margin: 1.6rem 0;
   }
+
   footer .features p, footer .company p, footer .resources p {
     margin-bottom: 0.8rem;
     font-size: 1.8rem;
   }
+
   footer .socials {
     margin-top: 2rem;
   }
 }
+
 @media screen and (max-width: 400px) {
   footer {
     padding: 4rem 2rem;
